@@ -2,6 +2,9 @@ class AppConstants {
   static const String appName = 'NOMVIA';
   static const String appTagline = 'Roam. Relate. Repeat.';
 
+  // Backend API URL (Render)
+  static const String apiBaseUrl = 'https://nomvia-backend.onrender.com';
+
   // Padding
   static const double paddingS = 8.0;
   static const double paddingM = 16.0;

@@ -32,6 +32,8 @@ migrate_working_dir/
 .pub-cache/
 .pub/
 /build/
+# Allow build/web for Render static hosting
+!/build/web
 
 # Symbolication related
 app.*.symbols
